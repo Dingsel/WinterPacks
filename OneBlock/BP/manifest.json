@@ -1,0 +1,51 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"Dingsel"
+		]
+	},
+	"header": {
+		"name": "One-Block-Skyblock",
+		"description": "A one-block-skyblock addon made by Dingsel",
+		"min_engine_version": [
+			1,
+			19,
+			50
+		],
+		"uuid": "9ea782c8-3515-43a3-847d-17059fad07fb",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "3905cb77-8875-4510-b68d-dad4a1c74698",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "d9551be7-a5eb-40a1-bc13-aa5b1c860ca6",
+			"entry": "scripts/main.js",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.1.0-beta"
+		}
+	]
+}
